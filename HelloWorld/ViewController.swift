@@ -9,10 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var x=90;
 
-    override func viewDidLoad() {
+   
+   override func viewDidLoad() {
         super.viewDidLoad()
+        test();
+        x=100;
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func test(){
+        var a = 900
+        print("HI");
+        a=1000
+        
+        
+        
+    
     }
 
     override func didReceiveMemoryWarning() {
